@@ -89,3 +89,19 @@ renderer.render(scene, camera);
 This creates a simple green cube that you can see in your browser when you run `npm run dev`.
 
 ![Green Cube in Three.js](assets/Screenshot%202025-05-29%20222930.png)
+
+## For TypeScript
+1. Install `@types/three` with `npm install @types/three` for type checking.
+2. Create a `tsconfig.json` file and add the following content:
+```json
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+```
+3. Create a `main.ts` file and add your code in it.
+4. Update the `index.html` file to include the file in `main.ts` instead of `script.js` in src:
+```html
+<script type="module" src="./main.ts"></script>
+```
+5. Run `npm run dev` to start the development server.
