@@ -88,4 +88,4 @@ renderer.render(scene, camera);
 
 This creates a simple green cube that you can see in your browser when you run `npm run dev`.
 
-![Green Cube in Three.js](static/Screenshot%202025-05-29%20222930.png)
+![Green Cube in Three.js](assets/Screenshot%202025-05-29%20222930.png)
