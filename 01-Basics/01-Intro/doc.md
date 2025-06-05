@@ -105,3 +105,9 @@ This creates a simple green cube that you can see in your browser when you run `
 <script type="module" src="./main.ts"></script>
 ```
 5. Run `npm run dev` to start the development server.
+
+
+## Linting
+1. Install biome: `npm install --save-dev @biomejs/biome`
+2. check a file with biome: `npx biome check src/main.ts`
+3. Fix the errors: `npx biome check --write src/main.ts`

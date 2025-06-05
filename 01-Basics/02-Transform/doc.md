@@ -135,7 +135,3 @@ group.scale.z = 2
 ![Transform Example](assets/Screenshot%202025-05-30%20142910.png)
 
 
-## Linting
-1. Install biome: `npm install --save-dev @biomets/biome`
-2. check a file with biome: `npx biome check src/main.ts`
-3. Fix the errors: `npx biome check --write src/main.ts`
